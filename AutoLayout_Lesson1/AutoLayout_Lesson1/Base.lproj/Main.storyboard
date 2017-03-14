@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayout_Lesson1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="B6q-tl-1vy">
+                                <rect key="frame" x="37" y="293" width="300" height="80"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pCcdv3oL" translatesAutoresizingMaskIntoConstraints="NO" id="GmD-F8-bcb">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="PUK-GN-ml9"/>
+                                            <constraint firstAttribute="width" constant="80" id="g74-qk-xKc"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="taichi" translatesAutoresizingMaskIntoConstraints="NO" id="eiJ-dA-lst">
+                                        <rect key="frame" x="110" y="0.0" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="93Y-er-Co3"/>
+                                            <constraint firstAttribute="width" constant="80" id="pjM-ec-S5z"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tomomi_small" translatesAutoresizingMaskIntoConstraints="NO" id="Xc8-xd-xKq">
+                                        <rect key="frame" x="220" y="0.0" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="6lW-j4-1lc"/>
+                                            <constraint firstAttribute="height" constant="80" id="UJV-wS-5Dl"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="B6q-tl-1vy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IpE-tg-ECX"/>
+                            <constraint firstItem="B6q-tl-1vy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L5j-fG-axT"/>
+                            <constraint firstItem="B6q-tl-1vy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="M1d-ZT-xgw"/>
+                            <constraint firstItem="B6q-tl-1vy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="n7Q-gM-Jad"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pCcdv3oL" width="400" height="400"/>
+        <image name="taichi" width="720" height="480"/>
+        <image name="tomomi_small" width="308" height="400"/>
+    </resources>
+</document>
